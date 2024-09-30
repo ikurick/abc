@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile h2 {
+            margin: 0.5rem 0;
+        }
+        .profile p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .skills, .contact {
+            margin-top: 2rem;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #f0f0f0;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>自己紹介</h1>
+</header>
+
+<div class="container">
+    <div class="profile">
+        <img src="https://via.placeholder.com/150" alt="プロフィール画像" class="profile-img">
+        <h2>山田 太郎</h2>
+        <p>こんにちは！私はEC業界で働くプロフェッショナルで、OEMや物流、カスタマーサービスに特化した業務を行っています。</p>
+    </div>
+
+    <div class="skills">
+        <h3>スキルセット</h3>
+        <ul>
+            <li>OEM管理とコンサルティング</li>
+            <li>物流・在庫管理</li>
+            <li>カスタマーサポート</li>
+            <li>ECサイト運営</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h3>お問い合わせ</h3>
+        <p>お気軽にご連絡ください: <a href="mailto:taro.yamada@example.com">taro.yamada@example.com</a></p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 山田 太郎 | プライバシーポリシー</p>
+</footer>
+
+</body>
+</html>
+
